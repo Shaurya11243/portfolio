@@ -1,3 +1,5 @@
+import profileImg from '../assets/profile.jpeg';
+
 export const profileData = {
   name: "Siddharth Shaurya",
   title: "Full Stack Developer",
@@ -8,7 +10,7 @@ export const profileData = {
   github: "https://github.com/Shaurya11243",
   bio: "A B.Tech CSE student at Lovely Professional University, passionate about building web applications and problem-solving through innovative solutions.",
   heroTypingRoles: ["Full Stack Developer", "App Developer", "Problem Solver"],
-  profileImage: "/src/assets/profile.jpeg",
+  profileImage: profileImg,
   resumeUrl: "/Sidd-CV.pdf",
   achievements: [
     {
